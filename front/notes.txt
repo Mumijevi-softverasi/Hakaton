@@ -1,0 +1,12 @@
+/* Define a color in a CSS file */
+.my-color {
+  color: #FF0000;
+}
+
+/* Import the CSS file containing the color definition */
+@import url("colors.css");
+
+/* Use the color in another CSS file */
+.my-element {
+  color: var(--my-color);
+}
